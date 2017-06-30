@@ -6,4 +6,5 @@ load('sample.mat');
 % result = NeuroNetwork(trainX,trainY,testX,testY);   %Éñ¾­ÍøÂç
 % result = SVMDecision(trainX,trainY,testX,testY);    %SVM
 % result = BayesNaive(trainX,trainY,testX,testY);     %Naive Bayes
-
+% result = AdaBoost(trainX,trainY,testX,testY);       %AdaBoost
+result = RandomForest(trainX,trainY,testX,testY);   %random forest
